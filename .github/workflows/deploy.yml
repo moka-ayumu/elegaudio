@@ -22,6 +22,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          CI: ""
 
       - name: Generate .nojekyll
         run: touch build/.nojekyll
