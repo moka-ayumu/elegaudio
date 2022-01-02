@@ -2,6 +2,7 @@
   "name": "elegaudio",
   "version": "0.1.0",
   "private": false,
+  "homepage": ".",
   "babel": {
     "presets": [
       "@babel/preset-react"
