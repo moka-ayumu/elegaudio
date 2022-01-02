@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/logo.png" className="logo" />
+      <img src="./logo.png" className="logo" alt="logo" />
       <h1 className="center">
         Elegaudio{" "}
         <a
