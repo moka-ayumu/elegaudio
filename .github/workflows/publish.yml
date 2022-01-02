@@ -17,8 +17,8 @@ jobs:
 
       - name: Configure package.json
         run: |
-          rm '.\package.json'
-          mv '.\package-npm.json' '.\package.json'
+          rm package.json
+          mv package-npm.json package.json
 
       - name: Dependencies Install
         run: npm install
