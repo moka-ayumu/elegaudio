@@ -1,0 +1,62 @@
+.range {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+  margin: auto;
+  gap: 0.5em;
+}
+
+.radio {
+  border-radius: 10px;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+
+.color {
+  border-radius: 10px;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7em;
+  margin: auto;
+}
+
+.radio > div {
+  display: flex;
+}
+
+.radio > div > input {
+  margin-right: 0.4rem;
+}
+
+.high {
+  transition: all 0.1s;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.high:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.inputTitle {
+  font-size: 1.2em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.range > label {
+  margin-right: 0.4em;
+}
+
+label {
+  font-family: "Josefin Sans", sans-serif;
+}
