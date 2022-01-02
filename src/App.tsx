@@ -216,6 +216,13 @@ function App() {
         hoverColor="#98A6A0"
         audioRef={ref}
       />
+      <a
+        href="/license.html"
+        target="_blank"
+        style={{ marginTop: "10rem", marginLeft: "auto" }}
+      >
+        site license
+      </a>
     </div>
   );
 }

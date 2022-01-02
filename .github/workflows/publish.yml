@@ -18,7 +18,6 @@ jobs:
       - name: Configure package.json
         run: |
           npx json -f '.\package copy.json' -I -e "delete this.devDependencies"
-          npx json -f '.\package copy.json' -I -e "delete this.dependencies['react-syntax-highlighter']"
 
       - name: Dependencies Install
         run: npm install
