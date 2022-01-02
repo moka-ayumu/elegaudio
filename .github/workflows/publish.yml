@@ -17,7 +17,8 @@ jobs:
 
       - name: Configure package.json
         run: |
-          npx json -f '.\package copy.json' -I -e "delete this.devDependencies"
+          rm '.\package.json'
+          mv '.\package-npm.json' '.\package.json'
 
       - name: Dependencies Install
         run: npm install
