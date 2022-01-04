@@ -1,4 +1,9 @@
-# Elegaudio
+<p align="center">
+<img src="https://github.com/moka-ayumu/elegaudio/blob/aa53cb1e20e8770de3b53deee2616fea632ccf04/public/logo.png" width="130"/>
+</p>
+<h1 align="center">
+  Elegaudio
+</h1>
 
 [![react build & deploy](https://github.com/moka-ayumu/elegaudio/actions/workflows/deploy.yml/badge.svg)](https://github.com/moka-ayumu/elegaudio/actions/workflows/deploy.yml)
 [![pages-build-deployment](https://github.com/moka-ayumu/elegaudio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/moka-ayumu/elegaudio/actions/workflows/pages/pages-build-deployment)
