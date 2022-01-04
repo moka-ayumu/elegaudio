@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import "./Elegaudio.css";
+import "./styles/Elegaudio.css";
 
 function Elegauido({
   src,

@@ -1,6 +1,6 @@
 {
   "name": "elegaudio",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "homepage": "https://moka-ayumu.github.io/elegaudio/",
   "repository": "https://github.com/moka-ayumu/elegaudio",
@@ -14,7 +14,7 @@
     "typescript": "^4.5.2"
   },
   "scripts": {
-    "npm:build": "rm -rf lib && tsc --p tsconfig-npm.json"
+    "npm:build": "rm -rf lib && tsc --p tsconfig-npm.json  && cp -r src/lib/styles/ lib/styles/"
   },
   "license": "MIT"
 }

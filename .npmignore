@@ -24,3 +24,6 @@ yarn-error.log*
 .babelrc
 /public
 /.github
+
+tsconfig.json
+tsconfig-npm.json
