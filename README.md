@@ -1,5 +1,9 @@
 # Elegaudio
 
+[![react build & deploy](https://github.com/moka-ayumu/elegaudio/actions/workflows/deploy.yml/badge.svg)](https://github.com/moka-ayumu/elegaudio/actions/workflows/deploy.yml)
+[![pages-build-deployment](https://github.com/moka-ayumu/elegaudio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/moka-ayumu/elegaudio/actions/workflows/pages/pages-build-deployment)
+[![npm build & publish](https://github.com/moka-ayumu/elegaudio/actions/workflows/publish.yml/badge.svg)](https://github.com/moka-ayumu/elegaudio/actions/workflows/publish.yml)
+
 A react component that shows an audio waveform
 Please refer to the [**website**](https://moka-ayumu.github.io/elegaudio/) for detailed explanation.
 
