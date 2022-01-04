@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Prism } from "react-syntax-highlighter";
 import "./App.css";
-import Elegaudio from "./lib/Elegaudio";
+import { Elegaudio } from "./lib/index";
 import { tomorrow } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Range from "./components/Range";
 import Radio from "./components/Radio";
@@ -57,6 +57,11 @@ function App() {
           Github
         </a>
       </h1>
+
+      <h2>How to import the component</h2>
+      <Prism language="typescript" style={tomorrow} showLineNumbers={true}>
+        {`import { Elegaudio } from "elegaudio";`}
+      </Prism>
 
       <h2>Audio file for examples</h2>
       <input type="file" accept="audio/*" onChange={onFileChange} />

@@ -1,7 +1,13 @@
 # Elegaudio
 
 A react component that shows an audio waveform
-Please refer to the website for detailed explanation.
+Please refer to the [**website**](https://moka-ayumu.github.io/elegaudio/) for detailed explanation.
+
+## How to import the component
+
+```
+import { Elegaudio } from "elegaudio";
+```
 
 ## Example
 

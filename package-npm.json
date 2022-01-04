@@ -4,6 +4,8 @@
   "private": false,
   "homepage": "https://moka-ayumu.github.io/elegaudio/",
   "repository": "https://github.com/moka-ayumu/elegaudio",
+  "module": "dist/index.ts",
+  "main": "dist/index.ts",
   "babel": {
     "presets": ["@babel/preset-react"]
   },
@@ -16,17 +18,6 @@
   },
   "scripts": {
     "npm:build": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
-  },
-  "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
-  },
-  "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "license": "MIT"
 }
